@@ -1,0 +1,44 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+table.my-blocks_user_table{
+	background-color: #ffffff;
+	font-size: 16px;
+	border-collapse: collapse;
+}
+table.my-blocks_user_table tr:last-child td {
+	border-bottom: 0;
+}
+
+table.my-blocks_user_table tr th,
+table.my-blocks_user_table tr td {
+	text-align: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+table.my-blocks_user_table tr th {
+	color: #ffffff;
+	font-weight: normal;
+	background-color: #8f8f8f;
+	border-bottom: solid 2px #d8d8d8;
+	position: sticky;
+	top: 0;
+}
+table.my-blocks_user_table tr td {
+	border: solid 1px #d8d8d8;
+	border-left: 0;
+	border-right: 0;
+	white-space: nowrap;
+}
+table.my-blocks_user_table tbody tr {
+	transition: background-color 150ms ease-out;
+}
+table.my-blocks_user_table tr:nth-child(2n) {
+	background-color: whitesmoke;
+}
+table.my-blocks_user_table tbody tr:hover {
+	background-color: #ebebeb;
+}
